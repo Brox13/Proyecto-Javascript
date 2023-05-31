@@ -20,27 +20,27 @@ $(document).ready(function(){
     if(window.location.href.indexOf('index') > -1) {
         let posts = [
             {
-                title: 'Prueba de titulo 1',
+                title: 'Primera Noticia',
                 date: 'Publicado el día ' + moment().format('DD') + ' de ' + moment().format('MMMM') + ' del ' + moment().format('YYYY'),
                 content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin lacinia consequat nibh, vel lobortis sem convallis ut. Sed interdum porttitor mi eu gravida. Vestibulum aliquet libero vel ante finibus accumsan. Maecenas viverra, justo a finibus dictum, tellus magna tempus diam, vel fringilla turpis elit ut ex. Morbi eu turpis eu velit tincidunt ultrices ac id neque. Fusce semper nisl ac arcu imperdiet, at placerat diam gravida. Etiam condimentum, nulla eu porttitor ultricies, nisl dui ultrices velit, vitae tincidunt tellus dui vel enim. Nullam ante arcu, bibendum vitae est id, posuere euismod ante. Nullam nisl dui, cursus non lectus lacinia, porta pretium mauris. Proin laoreet massa sem.'
             },
             {
-                title: 'Pruba de titulo 2',
+                title: 'Segunda Noticia',
                 date: 'Publicado el día ' + moment().format('DD') + ' de ' + moment().format('MMMM') + ' del ' + moment().format('YYYY'),
                 content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin lacinia consequat nibh, vel lobortis sem convallis ut. Sed interdum porttitor mi eu gravida. Vestibulum aliquet libero vel ante finibus accumsan. Maecenas viverra, justo a finibus dictum, tellus magna tempus diam, vel fringilla turpis elit ut ex. Morbi eu turpis eu velit tincidunt ultrices ac id neque. Fusce semper nisl ac arcu imperdiet, at placerat diam gravida. Etiam condimentum, nulla eu porttitor ultricies, nisl dui ultrices velit, vitae tincidunt tellus dui vel enim. Nullam ante arcu, bibendum vitae est id, posuere euismod ante. Nullam nisl dui, cursus non lectus lacinia, porta pretium mauris. Proin laoreet massa sem.'
             },
             {
-                title: 'Pruba de titulo 3',
+                title: 'Tercera Noticia',
                 date: 'Publicado el día ' + moment().format('DD') + ' de ' + moment().format('MMMM') + ' del ' + moment().format('YYYY'),
                 content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin lacinia consequat nibh, vel lobortis sem convallis ut. Sed interdum porttitor mi eu gravida. Vestibulum aliquet libero vel ante finibus accumsan. Maecenas viverra, justo a finibus dictum, tellus magna tempus diam, vel fringilla turpis elit ut ex. Morbi eu turpis eu velit tincidunt ultrices ac id neque. Fusce semper nisl ac arcu imperdiet, at placerat diam gravida. Etiam condimentum, nulla eu porttitor ultricies, nisl dui ultrices velit, vitae tincidunt tellus dui vel enim. Nullam ante arcu, bibendum vitae est id, posuere euismod ante. Nullam nisl dui, cursus non lectus lacinia, porta pretium mauris. Proin laoreet massa sem.'
             },
             {
-                title: 'Pruba de titulo 4',
+                title: 'Cuarta Noticia',
                 date: 'Publicado el día ' + moment().format('DD') + ' de ' + moment().format('MMMM') + ' del ' + moment().format('YYYY'),
                 content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin lacinia consequat nibh, vel lobortis sem convallis ut. Sed interdum porttitor mi eu gravida. Vestibulum aliquet libero vel ante finibus accumsan. Maecenas viverra, justo a finibus dictum, tellus magna tempus diam, vel fringilla turpis elit ut ex. Morbi eu turpis eu velit tincidunt ultrices ac id neque. Fusce semper nisl ac arcu imperdiet, at placerat diam gravida. Etiam condimentum, nulla eu porttitor ultricies, nisl dui ultrices velit, vitae tincidunt tellus dui vel enim. Nullam ante arcu, bibendum vitae est id, posuere euismod ante. Nullam nisl dui, cursus non lectus lacinia, porta pretium mauris. Proin laoreet massa sem.'
             },
             {
-                title: 'Pruba de titulo 5',
+                title: 'Quinta Noticia',
                 date: 'Publicado el día ' + moment().format('DD') + ' de ' + moment().format('MMMM') + ' del ' + moment().format('YYYY'),
                 content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin lacinia consequat nibh, vel lobortis sem convallis ut. Sed interdum porttitor mi eu gravida. Vestibulum aliquet libero vel ante finibus accumsan. Maecenas viverra, justo a finibus dictum, tellus magna tempus diam, vel fringilla turpis elit ut ex. Morbi eu turpis eu velit tincidunt ultrices ac id neque. Fusce semper nisl ac arcu imperdiet, at placerat diam gravida. Etiam condimentum, nulla eu porttitor ultricies, nisl dui ultrices velit, vitae tincidunt tellus dui vel enim. Nullam ante arcu, bibendum vitae est id, posuere euismod ante. Nullam nisl dui, cursus non lectus lacinia, porta pretium mauris. Proin laoreet massa sem.'
             },
