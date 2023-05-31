@@ -1,0 +1,22 @@
+body {
+    background: url('/img/cielo.jpg');
+    background-attachment: fixed; /*Para que cuando se haga scrollo la imagen se quede fija*/
+}
+
+#logo {
+      background: #1f87c4;
+}
+
+
+
+#menu ul li:hover {
+    background: #1f87c4;
+}
+
+.button-more {
+        background: #1f87c4;
+}
+
+#logout {
+    background: #1f87c4;
+}
